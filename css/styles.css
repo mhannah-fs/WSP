@@ -1,15 +1,20 @@
 body {
 	font-size: 16px;
 	color: #000;
-	background: #ececec;
+	background: #fff;
 }
 
 .btn {
 	border: none;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 .navbar {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.6);
 	height: 80px;
 }
 
@@ -21,7 +26,7 @@ body {
 .navbar-brand {
 	margin-top: 10px;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 32px;
 	color: #fff;	
 }
 
@@ -29,8 +34,16 @@ a.navbar-brand:hover {
 	color: #fff;
 }
 
+div.navbar-header i {
+	color: #c9302c;
+}
+
 .navbar-form {
 	margin-top: 25px;
+}
+
+.nav-pills {
+	margin-top: 18px;
 }
 
 .jumbotron {
@@ -46,7 +59,23 @@ a.navbar-brand:hover {
 
 .search-form {
 	position: absolute;
-	top: 40%
+	top: 40%;
+}
+
+.search-form input[type="search"] {
+	min-width: 300px;	
+	margin-right: 5px;
+}
+
+.container-bg {
+	background: rgba(0,0,0,0.40);	
+	padding: 0 30px 20px 30px;
+	width: 440px;	
+}
+
+.container-bg h2 {
+	margin-left: 0;
+	padding-left: 0;
 }
 
 aside.sign-up {
@@ -68,20 +97,23 @@ aside.sign-up h3 {
 }
 
 div.item {
-	background: #fff;
+	color: #ececec;
+	background: #266a92;
 	position: relative;
 	padding-bottom: 10px;
-	margin-bottom: 30px;  
+	margin-bottom: 30px;
+-webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.15);
+-moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.15);
+box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.15);
 }
 
 div.item > span {
 	position: absolute;
 	top: 55%;
 	left: 40%;
-	background: #fff;
-	padding: 20px;
+	background: #266a92;
+	padding: 15px;
 	border-radius: 60px;
-	z-index: 99;
 }
 
 div.item > img {
@@ -97,6 +129,12 @@ div.item p {
 
 div.item h4 {
 	padding: 0 10px;
+	letter-spacing: 1px;
+	z-index: 1000;
+}
+
+.sortable {
+	margin-bottom: 10px;
 }
 
 .item a {
@@ -113,6 +151,39 @@ div.item h4 {
 .page-title h2 {
 	color: #ececec;
 	margin-top: 13px;
+}
+
+div.catagories {
+	background: #ececec;
+}
+
+div.catagories.col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.catagories h3 {
+	background: #266a92;
+	margin: 0;
+	padding: 10px;
+	color: #ececec;
+}
+
+ul.nav-stacked li a {
+	padding: 5px 0 5px 10px;
+}
+
+ul.nav-stacked li a:hover {
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	transition: 0.2s;
+	background: #266a92;
+	color: #ececec;
+}
+
+img.post-image {
+	width: 100%;
+	height: auto;
 }
 
 footer {
@@ -142,9 +213,24 @@ footer p {
 	background: #fff;
 }
 
-.map {
-	width: 100%;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .item {
+    min-height: 300px;
+  }
+  span.plus {
+	  display: none;
+	  color: transparent;
+  }
+  .item a {
+  	position: absolute;
+	  bottom: 10px;
+  }
 }
 
-
+@media (min-width: 320px) and (max-width: 767px) {
+	span.plus {
+		display: none;
+		color: transparent;
+	}
+}
 

@@ -16,7 +16,7 @@
 
   <body>
 
-    <div class="navbar navbar-fixed-top" role="navigation">
+    <header class="navbar navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><i class="glyphicon glyphicon-map-marker"></i>  Local Yard Sale</a>
+          <a class="navbar-brand" href="#"><i class="glyphicon glyphicon-map-marker"></i>  localyardsale.com</a>
         </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
@@ -39,25 +39,29 @@
           </form>
         </div>
       </div>
-    </div>
+    </header>
 
-    <div class="jumbotron">
+    <section class="jumbotron">
       <div class="container">
 				<div class="row">
 					<div class="col-md-8 search-form">
-						<h2>Let the search begin!</h2>
-						
-						<form class="form-inline" role="form">
-						  <div class="form-group">
-						    <input type="search" class="form-control" id="search" placeholder="Type in keywords">
-						  </div>
-						  <button type="submit" class="btn btn-primary">Search</button>
-						</form>
-						
+						<div class="container-bg">
+							<h2>Let the search begin!</h2>
+							
+							<form class="form-inline" role="form">
+							  <div class="form-group">
+							    <input type="search" class="form-control" id="search" placeholder="Type in keywords">
+							  </div>
+							  <a href="results.html" class="btn btn-danger">Search</a>
+							</form>
+							
+						</div>	
 					</div>
+					
 					<div class="col-md-4  pull-right">
 						<aside class="sign-up">
 							<h3><i class="glyphicon glyphicon-edit"></i> Sign Up Today!</h3>
+							
 							<form class="form-horizontal" role="form">
 							  <div class="form-group">
 							    <div class="col-sm-10 col-md-offset-1">
@@ -84,18 +88,17 @@
 							      <button type="submit" class="btn btn-primary btn-block">Join using Facebook</button>
 							    </div>
 							  </div>
-
 							</form>
 							
 						</aside>
 					</div>
 				</div>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
+    <div class="container"><!-- Start container -->
+      <div class="row"><!-- Start row -->
+        <div class="catagories col-md-3">
         	<h3>Catagories</h3>
           <ul class="nav nav-stacked">
           	<li><a href="#">Yard Sales</a></li>
@@ -107,106 +110,105 @@
           	<li><a href="#">Electronics</a></li>
           	<li><a href="#">Free</a></li>
           </ul>
-      </div>
-
-			<div class="col-md-9">
-				<div class="row">
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="item">
-							<img src="img/image1.jpg" alt="" />
-							<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
-							<p><span>Catagory</span></p>
-							<h4>Furniture</h4>
-							<a href="#" class="btn btn-primary ">View Post</a>
-						</div>
-					</div>
-
 				</div>
-			</div>
-    </div>
-    
-    </div>
+
+				<div class="col-md-9">
+					<div class="row">
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/image1.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Furniture</span></p>
+								<h4>7 Piece Table Set</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/bedset.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Furniture</span></p>
+								<h4>Antique Oak Bed</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/dresser.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Furniture</span></p>
+								<h4>French Buffet Dresser</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/trundle-bed.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Furniture</span></p>
+								<h4>Trundle Bed and Dresser</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/yard-sale-1.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Yard Sale</span></p>
+								<h4>Tools, Toys, XXL Clothes</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/dvd-player.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Electronics</span></p>
+								<h4>Surround Sound DVD</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/washer.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Appliances</span></p>
+								<h4>Kenmore Elite Oasis</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/yard-sale-2.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Yard Sale</span></p>
+								<h4>Cleaning Garage Out!</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+						<div class="col-sm-4">
+							<div class="item">
+								<img src="img/shoes.jpg" alt="" />
+								<span class="plus"><i class="glyphicon glyphicon-plus"></i></span>
+								<p><span>Clothing</span></p>
+								<h4>Nike LBJ Shoes</h4>
+								<a href="details.html" class="btn btn-default">View Post</a>
+							</div>
+						</div>
+			
+					</div>
+				</div>
+			</div><!-- End row -->
+    </div><!-- End container -->
 
     <footer>
     	<div class="container">

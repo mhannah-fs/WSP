@@ -2958,8 +2958,8 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #c9302c;
+  border-color: #b42b27;
 }
 .btn-danger:hover,
 .btn-danger:focus,
@@ -2967,8 +2967,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #c9302c;
-  border-color: #ac2925;
+  background-color: #9f2623;
+  border-color: #821f1c;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -2990,11 +2990,11 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #c9302c;
+  border-color: #b42b27;
 }
 .btn-danger .badge {
-  color: #d9534f;
+  color: #c9302c;
   background-color: #ffffff;
 }
 .btn-link {
@@ -4271,16 +4271,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
-  border-radius: 4px;
 }
 .breadcrumb > li {
   display: inline-block;
+  margin-top: 10px;
 }
 .breadcrumb > li + li:before {
   content: "/\00a0";
   padding: 0 5px;
   color: #cccccc;
+}
+.breadcrumb > li a {
+  color: #ececec;
 }
 .breadcrumb > .active {
   color: #777777;
@@ -4477,11 +4479,11 @@ a.label:focus {
   background-color: #ec971f;
 }
 .label-danger {
-  background-color: #d9534f;
+  background-color: #c9302c;
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #9f2623;
 }
 .badge {
   display: inline-block;
@@ -4750,7 +4752,7 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #c9302c;
 }
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
